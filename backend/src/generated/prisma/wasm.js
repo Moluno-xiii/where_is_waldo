@@ -134,6 +134,16 @@ exports.Prisma.ScoresScalarFieldEnum = {
   player_id: 'player_id'
 };
 
+exports.Prisma.ImagesScalarFieldEnum = {
+  id: 'id',
+  date_added: 'date_added',
+  source: 'source',
+  correct_x_percent_min: 'correct_x_percent_min',
+  correct_y_percent_min: 'correct_y_percent_min',
+  correct_x_percent_max: 'correct_x_percent_max',
+  correct_y_percent_max: 'correct_y_percent_max'
+};
+
 exports.Prisma.SortOrder = {
   asc: 'asc',
   desc: 'desc'
@@ -147,7 +157,8 @@ exports.Prisma.QueryMode = {
 
 exports.Prisma.ModelName = {
   players: 'players',
-  scores: 'scores'
+  scores: 'scores',
+  images: 'images'
 };
 
 /**
